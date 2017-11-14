@@ -1,0 +1,1354 @@
+[
+  {
+    "elements": [
+      {
+        "id": "as-a-user,-i-should-be-able-to-add-new-to-do-item;as-a-user,-i-should-be-able-to-add-new-to-do-item",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "As a user, I should be able to add new To-Do Item",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 18079217
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 531753
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the ToDoMVC page",
+            "result": {
+              "status": "passed",
+              "duration": 6632434818
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add task1 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 203846402
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task1 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 29261444
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 120889
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 43796561
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:74"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ToDo_Tests",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user,-i-should-be-able-to-add-new-to-do-item",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "As a user, I should be able to add new To-Do Item",
+    "tags": [
+      {
+        "name": "@ToDo_Tests",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Users/saisi/Desktop/Job/zendesk/todo-js/test/features/1.AddNewTodo.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "as-a-user,-i-should-be-able-to-edit-an-exisitng-to-do-item;as-a-user,-i-should-be-able-to-edit-an-exisitng-to-do-item",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "As a user, I should be able to edit an exisitng To-Do item",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 2571458
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 419555
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the ToDoMVC page",
+            "result": {
+              "status": "passed",
+              "duration": 5224426755
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add task1 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 202058747
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task1 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 26388949
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I edit task1 on todo list as task2",
+            "result": {
+              "status": "passed",
+              "duration": 110314315
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task2 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 42061054
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 167111
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 42738980
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:74"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ToDo_Tests",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user,-i-should-be-able-to-edit-an-exisitng-to-do-item",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "As a user, I should be able to edit an exisitng To-Do item",
+    "tags": [
+      {
+        "name": "@ToDo_Tests",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Users/saisi/Desktop/Job/zendesk/todo-js/test/features/2.EditNewTodo.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "as-a-user,-i-should-be-able-to-complete-and-re-activate-an-existing-to-do-item;as-a-user,-i-should-be-able-to-complete-and-re-activate-an-existing-to-do-item",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "As a user, I should be able to complete and re-activate an existing To-Do item",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 1888791
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 285235
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the ToDoMVC page",
+            "result": {
+              "status": "passed",
+              "duration": 5402408455
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add task1 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 197374497
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task1 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 24824109
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I complete task1 on todo list",
+            "result": {
+              "status": "passed",
+              "duration": 67524767
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the task1 should be completed",
+            "result": {
+              "status": "passed",
+              "duration": 24913787
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I re-activate task1 on todo list",
+            "result": {
+              "status": "passed",
+              "duration": 59376221
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the task1 should be re-activated",
+            "result": {
+              "status": "passed",
+              "duration": 26117541
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 357136
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 56943825
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:74"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ToDo_Tests",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user,-i-should-be-able-to-complete-and-re-activate-an-existing-to-do-item",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "As a user, I should be able to complete and re-activate an existing To-Do item",
+    "tags": [
+      {
+        "name": "@ToDo_Tests",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Users/saisi/Desktop/Job/zendesk/todo-js/test/features/3.4.CompleteAndReactivateTodo.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "as-a-user,-i-should-be-able-to-new-item-to-an-existing-list-of-to-do-items;as-a-user,-i-should-be-able-to-new-item-to-an-existing-list-of-to-do-items",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "As a user, I should be able to new Item to an existing list of To-Do items",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 4358717
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 265086
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the ToDoMVC page",
+            "result": {
+              "status": "passed",
+              "duration": 4772504009
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add task1 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 195373510
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task1 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 27280999
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add task2 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 129199854
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task2 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 36105891
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 90469
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 46190240
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:74"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ToDo_Tests",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user,-i-should-be-able-to-new-item-to-an-existing-list-of-to-do-items",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "As a user, I should be able to new Item to an existing list of To-Do items",
+    "tags": [
+      {
+        "name": "@ToDo_Tests",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Users/saisi/Desktop/Job/zendesk/todo-js/test/features/5.AddSecondTodo.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "as-a-user,-i-should-be-able-to-complete-all-active-tasks-by-clicking-the-down-arrow-at-the-top-left-of-the-ui;as-a-user,-i-should-be-able-to-complete-all-active-tasks-by-clicking-the-down-arrow-at-the-top-left-of-the-ui",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "As a user, I should be able to complete all active tasks by clicking the down arrow at the top-left of the UI",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 2346667
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 69531
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the ToDoMVC page",
+            "result": {
+              "status": "passed",
+              "duration": 5419159474
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add task1 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 193589410
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task1 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 29336900
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add task2 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 96838754
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task2 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 30253444
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I complete-all tasks on todo list",
+            "result": {
+              "status": "passed",
+              "duration": 56555084
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the task1 should be completed",
+            "result": {
+              "status": "passed",
+              "duration": 27461937
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the task2 should be completed",
+            "result": {
+              "status": "passed",
+              "duration": 32227568
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 34765
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 62439136
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:74"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ToDo_Tests",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user,-i-should-be-able-to-complete-all-active-tasks-by-clicking-the-down-arrow-at-the-top-left-of-the-ui",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "As a user, I should be able to complete all active tasks by clicking the down arrow at the top-left of the UI",
+    "tags": [
+      {
+        "name": "@ToDo_Tests",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Users/saisi/Desktop/Job/zendesk/todo-js/test/features/6.CompleteAllActiveTodo.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "as-a-user,-i-should-be-able-to-view-only-the-completed-to-do-items;as-a-user,-i-should-be-able-to-view-only-the-completed-to-do-items",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "As a user, I should be able to view only the completed To-Do items",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 3888594
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 126815
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the ToDoMVC page",
+            "result": {
+              "status": "passed",
+              "duration": 5460339935
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add task1 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 198443931
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task1 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 23075960
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I add task2 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 93487444
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task2 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 25123171
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I complete-all tasks on todo list",
+            "result": {
+              "status": "passed",
+              "duration": 54115972
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Completed button",
+            "result": {
+              "status": "passed",
+              "duration": 144262378
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task1 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 9805041
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "task2 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 14127808
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 54913
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 54781651
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:74"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ToDo_Tests",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user,-i-should-be-able-to-view-only-the-completed-to-do-items",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "As a user, I should be able to view only the completed To-Do items",
+    "tags": [
+      {
+        "name": "@ToDo_Tests",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Users/saisi/Desktop/Job/zendesk/todo-js/test/features/7.FilterCompletedTodo.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "as-a-user,-i-should-be-able-to-delete-single-item;as-a-user,-i-should-be-able-to-delete-single-item",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "As a user, I should be able to delete single item",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 872296
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 61630
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the ToDoMVC page",
+            "result": {
+              "status": "passed",
+              "duration": 5094752038
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add task1 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 198059535
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task1 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 25624504
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add task2 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 94183148
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task1 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 16777883
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I delete task1 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 113283205
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task1 should not be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 8690572
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 192395
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 83032527
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:74"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ToDo_Tests",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user,-i-should-be-able-to-delete-single-item",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "As a user, I should be able to delete single item",
+    "tags": [
+      {
+        "name": "@ToDo_Tests",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Users/saisi/Desktop/Job/zendesk/todo-js/test/features/8.DeleteActiveTodo.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "as-a-user,-i-should-be-able-to-clear-all-the-completed-items;as-a-user,-i-should-be-able-to-clear-all-the-completed-items",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "As a user, I should be able to clear all the completed items",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 847803
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 67951
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the ToDoMVC page",
+            "result": {
+              "status": "passed",
+              "duration": 5115638564
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add task1 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 220135988
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task1 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 31115864
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add task2 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 100216534
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task1 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 14936895
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I complete-all tasks on todo list",
+            "result": {
+              "status": "passed",
+              "duration": 66068570
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I add task3 onto todo list",
+            "result": {
+              "status": "passed",
+              "duration": 117003108
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task3 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 34386977
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Clear completed button",
+            "result": {
+              "status": "passed",
+              "duration": 109161920
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task1 should not be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 14773339
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task2 should not be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 27493147
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "task3 should be displayed on the todo list",
+            "result": {
+              "status": "passed",
+              "duration": 14108055
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\step_definitions\\todo.steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 42667
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 45449104
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\saisi\\Desktop\\Job\\zendesk\\todo-js\\src\\support\\hooks.js:74"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ToDo_Tests",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user,-i-should-be-able-to-clear-all-the-completed-items",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "As a user, I should be able to clear all the completed items",
+    "tags": [
+      {
+        "name": "@ToDo_Tests",
+        "line": 1
+      }
+    ],
+    "uri": "C:/Users/saisi/Desktop/Job/zendesk/todo-js/test/features/9.ClearAllCompletedTodo.feature"
+  }
+]

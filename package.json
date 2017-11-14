@@ -1,0 +1,21 @@
+{
+  "name": "todo-js",
+  "version": "1.0.0",
+  "description": "Code challenge project",
+  "main": "",
+  "scripts": {
+    "test_Windows": "cucumber-js test --tags @ToDo_Tests --require src/support --require src/step_definitions -f json:report/cucumber_report.json",
+    "test_OSX_Linux": "cucumber.js test --tags @ToDo_Tests --require src/support --require src/step_definitions -f json:report/cucumber_report.json"
+  },
+  "author": "Sai Kambaiyyagari",
+  "license": "ISC",
+    "dependencies": {
+    "cucumber": "^1.2.0",
+    "cucumber-html-reporter": "^0.4.2",
+    "dotenv": "^2.0.0",
+    "selenium-webdriver": "^2.53.3"
+  },
+  "devDependencies": {
+    "chromedriver": "^2.25.1"
+  }
+}
